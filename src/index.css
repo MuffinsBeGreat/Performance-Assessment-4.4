@@ -19,7 +19,7 @@ code {
   height: 100 vh;
 }
 
-/* .todo-box {
+.todo-box {
   text-align: center;
   background-color: #f4f4f4;
   padding: 10px;
@@ -46,4 +46,4 @@ ul {
   padding: 10px;
   border-radius: 20px;
   width: 300px;
-} */
+}
