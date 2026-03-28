@@ -3,6 +3,7 @@ import Button from './components/Button';
 import Input from './components/Input';
 import TodoList from './components/TodoList';
 import './App.css';
+import AutoCompleteText from './components/AutoCompleteText';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -22,6 +23,9 @@ function App() {
       <br /> <br />
       <h1>Todo List</h1>
       <TodoList />
+      <br /> <br />
+      <h1>Autocomplete Text Box</h1>
+      <AutoCompleteText />
     </div>
   );
 }
